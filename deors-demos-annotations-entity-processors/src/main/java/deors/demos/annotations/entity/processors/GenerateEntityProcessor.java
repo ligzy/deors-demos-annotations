@@ -60,13 +60,13 @@ public class GenerateEntityProcessor
     private String qualifiedName = "";
 
     /** The field list. */
-    private final List<String> fieldNames = new ArrayList<>();
+    private final List<String> fieldNames = new ArrayList<String>();
 
     /** Map containing each field type. */
-    private final Map<String, String> fieldTypes = new HashMap<>();
+    private final Map<String, String> fieldTypes = new HashMap<String,String>();
 
     /** Map containing whether a field is part of the entity key. */
-    private final Map<String, Boolean> fieldId = new HashMap<>();
+    private final Map<String, Boolean> fieldId = new HashMap<String,Boolean>();
 
     /**
      * Default constructor.

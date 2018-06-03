@@ -63,10 +63,10 @@ public class GenerateDataAccessProcessor
     private String qualifiedName = "";
 
     /** The query method list. */
-    private final List<String> queryNames = new ArrayList<>();
+    private final List<String> queryNames = new ArrayList<String>();
 
     /** Map containing each query string. */
-    private final Map<String, String> queryStrings = new HashMap<>();
+    private final Map<String, String> queryStrings = new HashMap<String,String>();
 
     /** Entity type name (fully qualified). */
     private String entityType = "";
